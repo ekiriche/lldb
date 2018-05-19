@@ -1,0 +1,17 @@
+b main
+r
+br s -l 11 -i 1
+br s -l 16 -o
+br s -l 27
+br s -l 37
+c
+expression tab[0]=tab[1]
+c
+expression int $foo = tab[1]
+c
+expression tab[2]=tab[1]; tab[1]=$foo; count=0
+c
+expr tmp = min[0] + min[1] + min[2]
+c
+expr biggest=(min[0]>min[1]?min[0]:min[1])>min[2]?(min[0]>min[1]?min[0]:min[1]):min[2];
+c

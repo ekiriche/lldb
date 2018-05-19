@@ -1,0 +1,12 @@
+settings set target.x86-disassembly-flavor intel
+settings set prompt "(angolubo) "
+script print "\x1B[31m"
+script print "                             _       _           "
+script print "                            | |     | |          "
+script print "      __ _ _ __   __ _  ___ | |_   _| |__   ___  "
+script print "     / _` | '_ \ / _` |/ _ \| | | | | '_ \ / _ \ "
+script print "    | (_| | | | | (_| | (_) | | |_| | |_) | (_) |"
+script print "     \__,_|_| |_|\__, |\___/|_|\__,_|_.__/ \___/ "
+script print "                  __/ |                          "
+script print "                 |___/‘"
+script print "\x1B[0m"
